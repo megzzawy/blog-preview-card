@@ -1,0 +1,70 @@
+:root {
+    --yellow-color: #F4D04E; 
+    --grey-950-color: #111111;
+    --grey-500-color: #6B6B6B;
+    --white-color: #FFFFFF;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: var(--yellow-color);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    box-shadow: 7px 6px 0px 0px;
+    background-color: var(--white-color);
+    border: #111111 1px  solid;
+    border-radius: 10px;
+    padding: 20px;
+    width:fit-content;
+    text-align: left;
+    gap: 15px;
+}
+
+.container .image {
+    place-self: center;
+}
+
+.container .image img {
+    border-radius: 10px;
+}
+
+
+h1{
+    color: var(--grey-950-color);
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.learningBox {
+    background-color: var(--yellow-color);
+    padding: 5px;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+}
+
+.profile img {
+    width: 45px;
+}
